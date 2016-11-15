@@ -6,10 +6,10 @@
   "visible" : true,
   "sortWeight" : "0.0",
   "repoName":"iotapp-template-i2c",
-  "tooltip":"A node.js based app that can work with directly with the I2C bus",
-  "description":"A node.js based app that can work with directly with the I2C bus",
+  "tooltip":"Demonstrate use of the I2C bus.",
+  "description":"A Node.js app that demonstrates use of the I2C bus via mraa and upm by connecting to an LCD display.",
   "articleUrl":"https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app",
-  "keywords" : [""],
+  "keywords" : ["mraa","upm","LCD","I2C"],
   "targets": ["edison","galileo"],
   "runtimes": ["node"]
 }
