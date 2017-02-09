@@ -23,15 +23,24 @@ of the bus transactions. If you were writing in C, you could use the wait system
 direct equivalent to "wait" in Javascript. Instead we have to set up a callback on a timer. So i2c.js
 creates a queue driven execution engine for i2c devices.
 
-Important Sample App Files
---------------------------
+Important App Files
+-------------------
 * main.js
 * i2c.js
 * package.json
 
-Important Sample Project Files
-------------------------------
+Important Project Files
+-----------------------
 * README.md
 * LICENSE.md
-* project-name.xdk
-* project-name.xdke
+* <project-name>.xdk
+
+Tested IoT Node.js Platforms
+----------------------------
+* [Intel® Galileo Board](http://intel.com/galileo)
+* [Intel® Edison Development Platform](http://intel.com/edison)
+
+This sample can run on other IoT [Node.js](http://nodejs.org) development
+platforms, that include the appropriate sensor hardware, but may require
+changes to the I/O initialization and configuration code in order to work on
+those other platforms.

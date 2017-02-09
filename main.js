@@ -1,14 +1,29 @@
-// Drive the Grive RGB LCD (a JHD1313m1)
-//
-// The way to drive the LCD directly from
-// Javascript code using the i2c interface directly
-// This approach is useful for learning about using
-// the i2c bus. The i2c file is an implementation
-// in Javascript for some of the common LCD functions
+/*
+ * Drive the Grove RGB LCD (a JHD1313m1).
+ *
+ * This can be done using one of two methods:
+ *
+ * Use the UPM library, which contains direct support for the LCD device.
+ *
+ * Alternatively, in this app, we will drive the LCD directly from JavaScript
+ * using the I2C interface directly. This approach is useful for learning
+ * about using the I2C bus. The LCD file is an implementation in JavaScript
+ * for some common LCD functions.
+ *
+ * Supported Intel IoT development boards are identified in the code.
+ *
+ * See LICENSE.md for license terms and conditions.
+ *
+ * https://software.intel.com/en-us/xdk/docs/using-templates-nodejs-iot
+ */
 
-// configure jshint
-/*jslint node:true, vars:true, bitwise:true, unparam:true */
-/*jshint unused:true */
+/* spec jslint and jshint lines for desired JavaScript linting */
+/* see http://www.jslint.com/help.html and http://jshint.com/docs */
+/* jslint node:true */
+/* jshint unused:true */
+
+"use strict" ;
+
 
 // we want mraa to be at least version 0.6.1
 var mraa = require('mraa');
@@ -66,7 +81,7 @@ function useLcd() {
     display.setColor(0, 60, 255);
     display.setCursor(1, 1);
     display.write('hi there');
-    display.setCursor(0,0);  
+    display.setCursor(0,0);
     display.write('more text');
     display.waitForQuiescent()
     .then(function() {

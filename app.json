@@ -1,15 +1,15 @@
 {
-  "title":"(I2C) LCD with backlight driver and demonstrator",
-  "projectTypeName": "com.intel.xdk.projecttype.iotapp",
-  "sample": false,
-  "template": true,
+  "title" : "(I2C) LCD with backlight driver and demonstrator",
+  "projectTypeName" : "com.intel.xdk.projecttype.iotapp",
+  "sample" : false,
+  "template" : true,
   "visible" : true,
   "sortWeight" : "0.0",
-  "repoName":"iotapp-template-i2c",
-  "tooltip":"Demonstrate use of the I2C bus.",
-  "description":"A Node.js app that demonstrates use of the I2C bus via mraa and upm by connecting to an LCD display.",
-  "articleUrl":"https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app",
+  "repoName" : "iotapp-template-i2c",
+  "tooltip" : "Demonstrate use of the I2C bus.",
+  "description" : "A Node.js app that demonstrates use of the I2C bus via mraa and upm by connecting to an LCD display.",
+  "articleUrl" : "https://software.intel.com/en-us/xdk/docs/using-templates-nodejs-iot",
   "keywords" : ["mraa","upm","LCD","I2C"],
-  "targets": ["edison","galileo"],
-  "runtimes": ["node"]
+  "targets" : ["edison","galileo"],
+  "runtimes" : ["node"]
 }
