@@ -1,5 +1,6 @@
 Intel® XDK IoT Node.js\* I2C Peripheral Interface App
 =====================================================
+
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -19,6 +20,7 @@ information regarding the upm sensor and actuator library APIs.
 
 App Overview
 ------------
+
 This example drives a JHD1313m1 LCD as found in the Grive Starter Kit. This
 connects to an i2c buss. It demonstrates the use if the i2c bus. Note that the
 code will depend on the device you are driving as much as it depends upon the
@@ -34,18 +36,21 @@ devices.
 
 Important App Files
 -------------------
+
 * main.js
 * i2c.js
 * package.json
 
 Important Project Files
 -----------------------
+
 * README.md
 * LICENSE.md
 * \<project-name\>.xdk
 
 Tested IoT Node.js Platforms
 ----------------------------
+
 * [Intel® Galileo Board for Arduino](http://intel.com/galileo)
 * [Intel® Edison Board for Arduino](http://intel.com/edison)
 
